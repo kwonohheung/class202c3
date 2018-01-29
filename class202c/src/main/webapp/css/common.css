@@ -1,0 +1,14 @@
+#wrapper {
+	margin: 5px 30px;
+}
+#title > h1 {
+	color: blue;
+}
+#search {
+	margin-bottom: 20px;
+}
+#buttons {
+	float: right;
+	margin-bottom: 5px;
+}
+
