@@ -19,7 +19,7 @@ public class BoardController {
 	
 	@Resource(name = "boardService")
 	BoardService boardService;
-	
+	  
 	@RequestMapping("/board/board.do")
 	public String selectBoardList(@RequestParam HashMap<String, String> req, ModelMap model) {
 		String title = (req.get("title") == null ? "" : req.get("title"));
